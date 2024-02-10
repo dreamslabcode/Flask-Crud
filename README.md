@@ -11,22 +11,22 @@
 
 * Clone o repositório
 * No terminal do VS Code, crie um ambiente de desenvolvimento (.env)
-  $ python -m venv venv
-  $ .\venv\Scripts\Activate.ps1
+  <p>$ python -m venv venv</p>
+  <p>$ .\venv\Scripts\Activate.ps1</p>
 * Instale as dependências
-  $ pip install -r requirements.txt
+  <p>$ pip install -r requirements.txt</p>
 * Crie um novo banco de dados chamado "flaskdb" e certifique-se de alterar no 'app.py' as configurações de acesso ao banco como usuário e senha
 * Execute o seguinte comando
-  $ flask db init
-  $ flask db migrate -m "Primeira migração"
+  <p>$ flask db init</p>
+  <p>$ flask db migrate -m "Primeira migração"</p>
 
 ### ✅ Testando a aplicação
  * Abra o insomnia (ou app semelhante)
  * Insira na url o endpoint: http://127.0.0.1:5000/empresa
  * Selecionando o método 'POST', crie uma nova empresa
-   {
+   <p>{
      "nome_fantasia": "Empresa Teste",
      "cnpj": "1234567894564",
      "email": "empresateste@mail.com",
      "telefone": "897987987"
-   }
+   }</p>
