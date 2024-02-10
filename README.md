@@ -30,3 +30,10 @@
      "email": "empresateste@mail.com",
      "telefone": "897987987"
    }</p>
+
+### Documentações
+* https://flask-migrate.readthedocs.io/en/latest/
+* https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/
+* https://flask-restful.readthedocs.io/en/latest/fields.html#basic-usage
+* https://www.digitalocean.com/community/tutorials/how-to-use-an-sqlite-database-in-a-flask-application
+* https://docs.sqlalchemy.org/en/13/orm/extensions/declarative/inheritance.html
